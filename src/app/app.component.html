@@ -1,0 +1,14 @@
+<div class="fields">
+    <form (submit)="submitTrip()">
+        <input type="text" [(ngModel)]="trip1" [ngModelOptions]="{standalone: true}">
+        <input type="text" [(ngModel)]="trip2" [ngModelOptions]="{standalone: true}">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div class="chartDiv">
+</div>
+
+<div class="test">
+    <canvas id="myCanvas"></canvas>
+</div>
